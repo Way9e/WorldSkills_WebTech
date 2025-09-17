@@ -1,0 +1,266 @@
+*{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/*Secção1 Menu de Navegação*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav h1{
+    color: rgb(91, 129, 187);
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: black;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color:  rgb(91, 129, 187);
+}
+
+nav a:hover{
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.281);
+    background-color:rgb(91, 129, 187);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transform: translatey(-6px);
+}
+
+/*<!--Secção2 Porto-->*/
+#porto{
+    background-color: rgb(91, 129, 187);
+}
+
+.d-block{
+    width: 100vw;
+    height: 90vh;
+}
+
+/*<!--Secção3 Porto-->*/
+#sobre{
+    background-color: rgb(91, 129, 187);
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.paragrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    gap: 50px;
+}
+
+.paragrafo h2{
+    color: white;
+}
+
+.paragrafo p{
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.textoSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sobre img{
+    height: 600px;
+    border-radius: 20px;
+}
+
+/*Secção4 Galeria*/
+
+#galeria{
+    background-color: rgb(91, 129, 187);
+    padding: 100px;
+}
+
+#galeria h2{
+    color: white;
+}
+
+#row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#row img{
+    height: 35vh;
+    border-radius: 20px;
+}
+
+/*Secção5 Quando ir*/
+#quando{
+    background-color: rgb(91, 129, 187);
+    flex-direction: row;
+    padding: 100px;
+}
+
+#quando h2{
+    color: white;
+}
+#quando h3{
+    color: white;
+}
+
+#quando p{
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+    color: black;
+}
+
+#cards p{
+    color: black;
+    text-align: justify;
+}
+
+#cards h2{
+    color: black;
+    text-align: justify;
+}
+
+article{
+    background-color: white;
+}
+  
+.card {
+    background-color:white;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    padding: 10px;
+}
+  
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover{
+    transform: translatey(-12px);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.281);
+}
+
+/*Secção6 o que fazer*/
+#fazer{
+    background-color: rgb(91, 129, 187);
+    padding: 100px;
+}
+#fazer h2{
+    color: white;
+}
+
+#atividades{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#atividades p{
+    color: white;
+}
+
+#fazer img{
+    width: 20vw;
+    border-radius: 20px;
+}
+
+/*Secção7 Onde ficar*/
+#onde{
+    background-color: rgb(91, 129, 187);
+    padding: 100px;
+    color: white;
+    text-align: justify;
+}
+
+#onde p{
+    font-size: larger;
+}
+
+#imghotel{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#imghotel img{
+    border-radius: 20px;
+    width: 29vw;
+}
+
+#hoteis{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+/*Secção8 Contactos*/
+#contactos{
+    background-color: rgb(91, 129, 187);
+    padding: 100px;
+    color: white;
+    text-align: justify;
+}
+
+#contactos p{
+    font-size: larger;
+}
+
+/*Footer*/
+footer{
+    background-color: white;
+    color: rgb(91, 129, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(91, 129, 187);
+    gap: 30px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(41, 57, 82);;
+}
