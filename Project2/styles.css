@@ -1,0 +1,160 @@
+*{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Secção1 Menu de Navegação*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    background-color:rgb(38, 61, 93);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav img{
+    height: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: white;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color:  white;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Ediçao do header e do link para adicionar*/
+h2{
+  text-align: center;
+}
+a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: black;
+    align-content: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.insert{
+    margin-left: 878px;
+}
+
+/*Ediçao visual da tabela*/
+
+table {
+    border-collapse: collapse;
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: black;
+  }
+
+  table a:hover{
+    text-decoration: underline;
+  }
+  
+  caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(91, 129, 187);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tr:hover{
+    background-color: rgb(178, 178, 182);
+  }
+
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+
+  tbody > tr:nth-of-type(even):hover {
+    background-color: rgb(178, 178, 182);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+  /*Editar formularios*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    font-size: large;
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(38, 61, 93);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+    gap: 30px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(96, 155, 238);
+}
