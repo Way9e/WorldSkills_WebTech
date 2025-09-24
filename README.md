@@ -50,8 +50,7 @@ HTML, CSS, PHP, MySQL
 
 - Complete the PHP backend for the tourism website contact form  
 - Add more advanced features to the management system (search, filtering, authentication)  
-- Optimize images and improve accessibility  
-- Add search/filter functionality for the telecom system
+- Add search/filter functionality for the management system
 
 ---
 
